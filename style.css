@@ -60,5 +60,15 @@ header {
 .menu-content .list-itens a:before{
     content: ' ';
     position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: rgba(251, 255, 0 );
+    transition: all 1.5s ease;
+}
+
+.menu-content .list-itens a:hover:before {
+    width: 100%;
 }
 
