@@ -57,3 +57,8 @@ header {
     position: relative;
 }
 
+.menu-content .list-itens a:before{
+    content: ' ';
+    position: absolute;
+}
+
