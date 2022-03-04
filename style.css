@@ -72,3 +72,36 @@ header {
     width: 100%;
 }
 
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-text {
+    width: 850px;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.second-text {
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: rgba(165, 165, 165);
+    text-transform: uppercase;
+}
+
+.bnts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
